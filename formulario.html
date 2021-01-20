@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilos/nysl.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Northside Youth Soccer League</h1> 
+        <img class="imagen-logo" src="imagenes/nysl_logo.png" alt="logo">
+    </header>
+
+    <div class="subtitulo-form"><h2>Upcoming Events</h2></div>
+    
+
+
+    <div class="home-formulario">    
+        <nav>
+          <ul>
+           <li><a href="home.html" >Home </a> </li>
+           <br><br>
+           <li><a href="about-nysl.html">About NYSL</a></li>
+           <br><br>
+           <li><a href="contact.html">Contact</a></li>
+           <br><br>
+           <li><a href="rules.html">Reglas</a></li>
+           <br><br>
+           <li><a href="Información_juegos.html">Calendario Juegos</a></li>
+           <br><br>
+           <li><a href="formulario.html">Formulario Inscripción</a></li>
+         </ul>
+        </nav>
+      </div>
+
+  <div class="orden-fomulario"> 
+      
+    <h2 class="titulo-form">Formulario De Inscripción</h2>
+    <form action="show_data.html">
+
+    <div class="menu-nombre">
+      <label for="Nombre">Nombre</label>
+      <input type="text" name= "Nombre"> 
+      <label for="Apellido">Apellido</label>
+      <input type="text" name="Apellido">
+      
+    </div>
+
+    <div class="menu-direccion">
+      <label for="Direccion">Direccion</label>
+      <input type="text" name="Direccion">
+    </div>  
+
+    <div class="menu-ciudad">   
+      <label for="Ciudad">Ciudad</label>
+      <input type="text" name="Ciudad" value="">
+      <label for="CodigoPostal">Postal</label>
+      <input type="text" name="CodigoPostal" value="">
+      
+    </div>
+
+    
+    <div class="menu-datsex">
+      <label for="start">Start date:</label>
+      <input type="date" id="start" name="Fecha"
+        value="2021-07-22"
+        min="2016-01-01" max="2021-12-31">    
+      <label>Sexo</label> 
+      <input type="radio" name="sexo"  groupname="sexo" checked value="Masculino">Masculino
+      <input type="radio" name="sexo"  groupname="sexo" checked value="Femenino">Femenino  
+    </div>  
+
+      
+    <div class="menu-grado">
+      <label for="">Grado: </label>
+      <input type="checkbox" name="Grado"  id="" groupname="Grado :" value="Prescolar">Prescolar
+      <input type="checkbox" name="Grado"  value="1°">1°
+      <input type="checkbox" name="Grado"  value="2°">2°
+      <input type="checkbox" name="Grado"  value="3°">3°
+      <input type="checkbox" name="Grado"  value="4°">4°
+      <input type="checkbox" name="Grado"  value="5°">5° 
+    </div>  
+
+  <div class="subtitulo-escuelas">
+    <h3>¿De que escuela vives mas cerca?</h3> 
+  </div> 
+  <p class="subtitulo-de-escuelas">Escuela mas cercana:</p>
+  
+  
+
+  <div class="escuela-principal">
+    <div class="menu-escuela">
+      <span><input type="checkbox" name="Escuela"  value="AJ Katzenmaier"><label>AJ Katzenmaier</label></span>
+      <span><input type="checkbox" name="Escuela"  value="Greenbay"><label>Greenbay</label></span>
+      <span><input type="checkbox" name="Escuela"  value="Howard A Yeager"><label>Howard A Yeager</label></span>
+    </div>  
+
+    <div class="menu-escuela-2"> 
+      <span><input type="checkbox" name="Escuela"  value="Marjorie P Hart"><label>Marjorie P Hart</label></span>
+      <span><input type="checkbox" name="Escuela"  value="North Elementary"><label>North Elementary</label></span>
+      <span><input type="checkbox" name="Escuela"  value="South Elementary"><label>South Elementary</label></span>  
+  </div> 
+</div> 
+
+  <div class="subtitulo-posiciones">
+    <h3 >¿Qué posición(es) juegas normalmente? (marque todas las que correspondan) </h3>
+  </div>
+
+    <div class="menu-posicion-principal">
+    
+    <div class="menu-posicion-uno">
+      <span> <input type="checkbox" name="Posicion"  value="Delantero"><label>Delantero</label></span>
+      <span> <input type="checkbox" name="Posicion"  value="Medio Campo"><label>Medio Campo</label></span>
+    </div> 
+
+    <div class="menu-posicion-dos">
+      <span> <input type="checkbox" name="Posicion"  value="Portero"><label>Portero</label></span>
+      <span><input type="checkbox" name="Posicion"  value="Defensa"><label>Defensa</label></span>
+    </div>
+
+    </div>
+
+  <div class="subtitulo-posiciones">
+    <h3>Tamaño uniforme: </h3>
+  </div> 
+
+    <div class="menu-principal-uniformes"> 
+
+     <div class="uniformes-uno">  
+        <span><input type="checkbox" name="Uniforme"  value="Niño P"><label>Niño P</label></span>
+        <span><input type="checkbox" name="Uniforme"  value="Niño P"><label>Niño M</label></span>
+        <span><input type="checkbox" name="Uniforme"  value="Niño P"><label>Niño G</label></span>
+        <span><input type="checkbox" name="Uniforme"  value="Pequeño"><label>Pequeño</label></span>
+      </div>
+
+      <div class="uniformes-dos">
+        <span><input type="checkbox" name="Uniforme"  value="Mediano"><label>Mediano</label></span>
+        <span><input type="checkbox" name="Uniforme"  value="Grande"><label>Grande</label></span>
+        <span><input type="checkbox" name="Uniforme"  value="Extra Grande"><label>Extra Grande</label></span>
+      </div>
+
+    </div>
+
+  <div class="subtitulo-posiciones">
+    <h3>Permiso para jugar</h3> 
+  </div>
+
+  
+    <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+    yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+    de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+    para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+    personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+    cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+    solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+    </p>
+    
+    <p>Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+    que he leído la política de cancelación y acepto sus términos.</p> 
+ 
+
+    <div class="menu-firma"> 
+      <label for="FirmaPadreTutor"></label>Firma Padre Tutor
+      <input type="text" name="Nombre/Firma/Tutor" > 
+      
+      <input type="date" id="start" name="FechaFirma"
+        value="2021-07-22"
+        min="2016-01-01" max="2021-12-31">
+    </div>  
+
+    <input type="submit" name="">
+
+   </form>
+  </div> 
+
+
+</body>
+</html>
