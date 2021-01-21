@@ -358,3 +358,11 @@ form{
     width: 80%;
     box-sizing: border-box;
 }
+
+.boton-envio-formulario{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-color: aqua;
+
+}

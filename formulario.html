@@ -20,7 +20,7 @@
     <div class="home-formulario">    
         <nav>
           <ul>
-           <li><a href="home.html" >Home </a> </li>
+           <li><a href="index.html" >Home </a> </li>
            <br><br>
            <li><a href="about-nysl.html">About NYSL</a></li>
            <br><br>
@@ -64,12 +64,12 @@
     
     <div class="menu-datsex">
       <label for="start">Start date:</label>
-      <input type="date" id="start" name="Fecha"
+      <span> <input type="date" id="start" name="Fecha"
         value="2021-07-22"
-        min="2016-01-01" max="2021-12-31">    
-      <label>Sexo</label> 
-      <input type="radio" name="sexo"  groupname="sexo" checked value="Masculino">Masculino
-      <input type="radio" name="sexo"  groupname="sexo" checked value="Femenino">Femenino  
+        min="2016-01-01" max="2021-12-31"></span>     
+      <label>Sexo </label> 
+      <span><input type="radio" name="sexo"  groupname="sexo" checked value="Masculino"><label>Masculino</label></span>
+        <span><input type="radio" name="sexo"  groupname="sexo" checked value="Femenino"><label>Femenino</label> </span>
     </div>  
 
       
@@ -157,6 +157,7 @@
     solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
     </p>
     
+   
     <p>Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
     que he leído la política de cancelación y acepto sus términos.</p> 
  
@@ -170,7 +171,7 @@
         min="2016-01-01" max="2021-12-31">
     </div>  
 
-    <input type="submit" name="">
+    <input class="boton-envio-formulario" type="submit" name="">
 
    </form>
   </div> 
